@@ -1,0 +1,6 @@
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_Pos\bin\Debug\PPX_Pos.dll
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_Pos\bin\Debug\PPX_Pos.pdb
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.csproj.AssemblyReference.cache
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.csproj.CoreCompileInputs.cache
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.dll
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.pdb

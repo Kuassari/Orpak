@@ -1,0 +1,10 @@
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.csproj.AssemblyReference.cache
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.csproj.CoreCompileInputs.cache
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\bin\Debug\CustomerPPX.exe.config
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\bin\Debug\CustomerPPX.exe
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\bin\Debug\CustomerPPX.pdb
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\bin\Debug\PPX_Pos.dll
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\bin\Debug\PPX_Pos.pdb
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\obj\Debug\Customer.017981EC.Up2Date
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.exe
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.pdb

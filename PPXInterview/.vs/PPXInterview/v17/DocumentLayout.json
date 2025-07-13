@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestPPX\\TestPPX\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_Pos\\POS_Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestPPX\\PPX_Pos\\POS_Process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_Pos\\PassportX_POS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestPPX\\PPX_Pos\\PassportX_POS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\Program.cs",
+              "RelativeDocumentMoniker": "TestPPX\\TestPPX\\Program.cs",
+              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\Program.cs",
+              "RelativeToolTip": "TestPPX\\TestPPX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:21:41.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PromotionEngine.cs",
+              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs",
+              "RelativeDocumentMoniker": "TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs",
+              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs",
+              "RelativeToolTip": "TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:16:19.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "POS_Process.cs",
+              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_Pos\\POS_Process.cs",
+              "RelativeDocumentMoniker": "TestPPX\\PPX_Pos\\POS_Process.cs",
+              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_Pos\\POS_Process.cs",
+              "RelativeToolTip": "TestPPX\\PPX_Pos\\POS_Process.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:15:57.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PassportX_POS.cs",
+              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_Pos\\PassportX_POS.cs",
+              "RelativeDocumentMoniker": "TestPPX\\PPX_Pos\\PassportX_POS.cs",
+              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_Pos\\PassportX_POS.cs",
+              "RelativeToolTip": "TestPPX\\PPX_Pos\\PassportX_POS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:15:44.398Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

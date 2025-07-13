@@ -1,0 +1,10 @@
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\PPX_PromotionEngine.exe
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\PPX_PromotionEngine.pdb
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\Loyalty.dll
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\PPXModel.dll
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\Visa.dll
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.csproj.AssemblyReference.cache
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.csproj.CoreCompileInputs.cache
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_Prom.A1B7CB6E.Up2Date
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.exe
+C:\Users\ofir7\source\repos\Orpak\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.pdb
