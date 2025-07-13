@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C969A7FA-076B-450B-A75C-F1DC6E3BB4AC}|TestPPX\\CustomerPPX.csproj|c:\\users\\ofir7\\source\\repos\\orpak\\ppxinterview\\testppx\\testppx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C969A7FA-076B-450B-A75C-F1DC6E3BB4AC}|TestPPX\\CustomerPPX.csproj|solutionrelative:testppx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B085B5B6-26DD-4840-B49A-45904FA3110A}|PPX_PromotionEngine\\PPX_PromotionEngine.csproj|c:\\users\\ofir7\\source\\repos\\orpak\\ppxinterview\\testppx\\ppx_promotionengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B085B5B6-26DD-4840-B49A-45904FA3110A}|PPX_PromotionEngine\\PPX_PromotionEngine.csproj|solutionrelative:ppx_promotionengine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C969A7FA-076B-450B-A75C-F1DC6E3BB4AC}|TestPPX\\CustomerPPX.csproj|C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\testppx\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C969A7FA-076B-450B-A75C-F1DC6E3BB4AC}|TestPPX\\CustomerPPX.csproj|solutionrelative:testppx\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B085B5B6-26DD-4840-B49A-45904FA3110A}|PPX_PromotionEngine\\PPX_PromotionEngine.csproj|C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\ppx_promotionengine\\promotionengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B085B5B6-26DD-4840-B49A-45904FA3110A}|PPX_PromotionEngine\\PPX_PromotionEngine.csproj|solutionrelative:ppx_promotionengine\\promotionengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,27 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\App.config",
-              "RelativeDocumentMoniker": "TestPPX\\App.config",
-              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\App.config",
-              "RelativeToolTip": "TestPPX\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-13T12:00:04.591Z"
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\Program.cs",
+              "RelativeDocumentMoniker": "PPX_PromotionEngine\\Program.cs",
+              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\Program.cs",
+              "RelativeToolTip": "PPX_PromotionEngine\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:50:57.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\Program.cs",
-              "RelativeDocumentMoniker": "TestPPX\\Program.cs",
-              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\TestPPX\\Program.cs",
-              "RelativeToolTip": "TestPPX\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwCgAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PromotionEngine.cs",
+              "DocumentMoniker": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs",
+              "RelativeDocumentMoniker": "PPX_PromotionEngine\\PromotionEngine.cs",
+              "ToolTip": "C:\\Users\\ofir7\\source\\repos\\Orpak\\PPXInterview\\TestPPX\\PPX_PromotionEngine\\PromotionEngine.cs",
+              "RelativeToolTip": "PPX_PromotionEngine\\PromotionEngine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T11:44:00.964Z",
+              "WhenOpened": "2025-07-13T12:30:30.648Z",
               "EditorCaption": ""
             }
           ]

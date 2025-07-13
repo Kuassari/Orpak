@@ -15,8 +15,54 @@ namespace PPX_PromotionEngine
     /// </summary>
     public class PromotionEngine
     {
-        // Cache calculated discounts for duplicate items
-        private Dictionary<int, double> _itemDiscountCache = new Dictionary<int, double>();
+        // Cache for provider discount items - loaded once per provider
+        private readonly Dictionary<string, HashSet<int>> _providerDiscountableItems;
+
+        // Cache for calculated item discounts - avoids recalculation for duplicate items
+        private readonly Dictionary<int, double> _itemDiscountCache;
+
+        // List of all available providers
+        private readonly List<dynamic> _providers;
+
+        public PromotionEngine()
+        {
+            _providerDiscountableItems = new Dictionary<string, HashSet<int>>();
+            _itemDiscountCache = new Dictionary<int, double>();
+
+            _providers = new List<dynamic>
+            {
+                new LoyaltyPromotionEngine(),
+                new VisaPromotionEngine()
+                // Future providers can be added here
+            };
+
+            InitializeProviderCache();
+        }
+
+        /// <summary>
+        /// Load discountable items from all providers once
+        /// Prevents repeated API calls during item processing
+        /// If provider fails during initialization, continue with empty set
+        /// </summary>
+        private void InitializeProviderCache()
+        {
+            foreach (var provider in _providers)
+            {
+                string providerName = provider.GetType().Name;
+
+                try
+                {
+                    var discountableIds = provider.GetDiscountableItemIds();
+                    _providerDiscountableItems[providerName] = new HashSet<int>(discountableIds);
+                    Console.WriteLine($"Loaded {discountableIds.Count} discountable items from {providerName}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Warning: Failed to load discountable items from {providerName}: {ex.Message}");
+                    _providerDiscountableItems[providerName] = new HashSet<int>();
+                }
+            }
+        }
 
         /// <summary>
         /// GetDiscount method - totalDiscount for each items
@@ -32,7 +78,7 @@ namespace PPX_PromotionEngine
             {
                 double totalDiscount;
 
-                // Check cache first for items with same ID (performance optimization)
+                // Check cache first for items with same ID, else calulate discount and cache it
                 if (_itemDiscountCache.ContainsKey(item.Id))
                 {
                     totalDiscount = _itemDiscountCache[item.Id];
@@ -43,7 +89,6 @@ namespace PPX_PromotionEngine
                     _itemDiscountCache[item.Id] = totalDiscount;
                 }
 
-                // Calculate new price: original price - total discounts
                 double newPrice = item.Price - totalDiscount;
                 result.Add((item, newPrice));
             }
@@ -54,61 +99,34 @@ namespace PPX_PromotionEngine
         /// <summary>
         /// Calculate total discount for an item from all available providers
         /// Each provider is checked independently and results are summed
+        /// If GetItemDiscount fails, continue with other providers
         /// </summary>
         private double CalculateItemDiscount(int itemId, double originalPrice)
         {
             double totalDiscount = 0;
 
-            // Assumption: each dll have GetDiscountableItemIds() and GetItemDiscount(int, double)
-            var providers = new List<dynamic>
+            foreach (var provider in _providers)
             {
-                new LoyaltyPromotionEngine(),
-                new VisaPromotionEngine()
-                // Future DLLs can be added here, for example:
-                // new MastercardPromotionEngine(),
-            };
+                string providerName = provider.GetType().Name;
 
-            // Check each provider and sum all applicable discounts
-            foreach (var provider in providers)
-            {
-                totalDiscount += GetDiscountFromProvider(provider, itemId, originalPrice);
+                // Use cached HashSet for O(1) lookup instead of repeated API calls
+                if (_providerDiscountableItems[providerName].Contains(itemId))
+                {
+                    try
+                    {
+                        double discount = provider.GetItemDiscount(itemId, originalPrice);
+                        totalDiscount += discount;
+
+                        Console.WriteLine($"{providerName} discount for item {itemId}: {discount:F2}");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error getting discount from {providerName} for item {itemId}: {ex.Message}");
+                    }
+                }
             }
 
             return totalDiscount;
-        }
-
-        /// <summary>
-        /// Generic method to get discount from any provider DLL
-        /// Works with any DLL that has GetDiscountableItemIds() and GetItemDiscount() methods
-        /// Returns 0 if item not eligible or if provider fails
-        /// </summary>
-        private double GetDiscountFromProvider(dynamic provider, int itemId, double originalPrice)
-        {
-            try
-            {
-                //Check if this item is eligible for discount from this provider
-                var discountableIds = provider.GetDiscountableItemIds();
-
-                // if Item is eligible - calculate discount else return 0
-                if (discountableIds.Contains(itemId))
-                {
-                    double discount = provider.GetItemDiscount(itemId, originalPrice);
-                    string providerName = provider.GetType().Name; // Get DLL name for logging
-                    Console.WriteLine($"{providerName} discount for item {itemId}: {discount:F2}");
-                    return discount;
-                }
-                else
-                {
-                    return 0;
-                }
-            }
-            catch (Exception ex)
-            {
-                // Provider failed - no discount from this provider
-                string providerName = provider?.GetType()?.Name ?? "Unknown";
-                Console.WriteLine($"{providerName} provider failed for item {itemId}: {ex.Message}");
-                return 0;
-            }
         }
 
     }
